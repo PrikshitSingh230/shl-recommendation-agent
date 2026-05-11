@@ -1,0 +1,37 @@
+# python
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# virtual environment
+
+venv/
+.env/
+
+# env files
+
+.env
+
+# vscode
+
+.vscode/
+
+# jupyter
+
+.ipynb_checkpoints/
+
+# data artifacts
+
+data/embeddings.npy
+data/faiss.index
+
+# mac/windows
+
+.DS_Store
+Thumbs.db
+
+# logs
+
+*.log
