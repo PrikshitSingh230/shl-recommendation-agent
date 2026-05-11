@@ -22,10 +22,6 @@ venv/
 
 .ipynb_checkpoints/
 
-# data artifacts
-
-data/embeddings.npy
-data/faiss.index
 
 # mac/windows
 
