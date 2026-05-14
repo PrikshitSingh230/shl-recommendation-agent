@@ -91,7 +91,7 @@ This approach allowed the system to remain lightweight while still producing rel
 
 ---
 
-# 🔍 Retrieval Pipeline
+## 🔍 Retrieval Pipeline
 
 ## 1. Catalog Preprocessing
 
@@ -176,7 +176,7 @@ FAISS is used for fast vector similarity search.
 
 ---
 
-# 🧠 LLM Design
+## 🧠 LLM Design
 
 The conversational layer uses:
 
@@ -196,7 +196,7 @@ The assistant recommends assessments whenever meaningful hiring signals are dete
 
 ---
 
-# 🛡️ Grounding and Validation
+## 🛡️ Grounding and Validation
 
 One important issue during development was hallucinated SHL URLs.
 
@@ -212,7 +212,7 @@ This keeps the final output grounded in the catalog data.
 
 ---
 
-# 🚀 Deployment
+## 🚀 Deployment
 
 The API is built using:
 - FastAPI
@@ -231,7 +231,7 @@ The deployment was optimized by:
 
 ---
 
-# 📊 Evaluation
+## 📊 Evaluation
 
 The system was tested across multiple recruiter style conversations covering:
 - Vague hiring requests
@@ -266,7 +266,7 @@ The main evaluation focus areas were:
 └── README.md
 ```
 
-# 📡 Public API
+## 📡 Public API
 
 Base URL:
 
